@@ -261,6 +261,18 @@ footer .social-media .email a .fa-envelope {
     }
 }
 
+@media (max-width: 576px) {
+    header .count-down .container-fluid .count-amount, header .count-down .container-fluid .count-period {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 411px) {
+    footer .social-media ul {
+        width: 100%;
+    }
+}
+
 @media (max-width: 375px){
     header .heading-page h1 {
         font-size: 25px;
@@ -270,8 +282,5 @@ footer .social-media .email a .fa-envelope {
     }
     header .count-down .container-fluid .m-2 {
         margin: 0 !important
-    }
-    footer .social-media ul {
-        width: 90%
     }
 }
